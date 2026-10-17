@@ -1,0 +1,11 @@
+experiment,mean_auc,fold_aucs
+LightGBM | C: all + graph,0.9982842705525102,[0.9987 0.9984 0.9978]
+LightGBM | D: all + graph + step ranks,0.9982496693481382,[0.9984 0.9983 0.998 ]
+LightGBM | C: all + graph minus 20 drifting,0.9982155273425054,[0.9986 0.9983 0.9977]
+Ensemble | lgb-heavy,0.9981039551483447,[0.9987 0.9979 0.9977]
+Ensemble | lgb+rf,0.9979187942522186,[0.9985 0.9979 0.9974]
+LightGBM | B: all original,0.9979182976661206,[0.9982 0.9982 0.9973]
+Ensemble | lgb+rf+et,0.997804212971143,[0.9984 0.9976 0.9974]
+LightGBM | A: local only,0.9971153858136489,[0.9975 0.9971 0.9968]
+RF | C: all + graph,0.9966051467904254,[0.9972 0.9965 0.9961]
+ET | C: all + graph,0.9945382895792765,[0.9962 0.9947 0.9927]
